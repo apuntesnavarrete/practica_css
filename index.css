@@ -42,6 +42,15 @@ p.small-caps {
     padding: 10px;
   }
  
+  .aparece{
+    display: none;
+  }
+
+  .hover:hover p {
+    display: block;
+  }
+
+
  /* Descendant Selector */
 
   /* Child Selector (>) Hijos directos */
@@ -49,3 +58,5 @@ p.small-caps {
  /* Adjacent Sibling Selector (+) hermano seguido */
 
   /* General Sibling Selector (~) (Hermanos seguidos)*/
+
+  /*opacity - Rgba */ 
