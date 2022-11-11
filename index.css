@@ -41,3 +41,11 @@ p.small-caps {
     border: 3px solid #73AD21;
     padding: 10px;
   }
+ 
+ /* Descendant Selector */
+
+  /* Child Selector (>) Hijos directos */
+
+ /* Adjacent Sibling Selector (+) hermano seguido */
+
+  /* General Sibling Selector (~) (Hermanos seguidos)*/
