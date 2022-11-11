@@ -60,3 +60,12 @@ p.small-caps {
   /* General Sibling Selector (~) (Hermanos seguidos)*/
 
   /*opacity - Rgba */ 
+
+  body {
+    counter-reset: section;
+  }
+
+  .counter h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
