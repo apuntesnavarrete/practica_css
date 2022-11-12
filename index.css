@@ -89,3 +89,9 @@ p.small-caps {
   height: 100px;
   width: min(50%, 300px);
     }
+
+
+    .currentcolor {
+      color: blue;
+      border: 10px solid currentcolor;
+    }
