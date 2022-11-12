@@ -121,3 +121,15 @@ p.small-caps {
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
+    p.break {
+      width: 140px; 
+      border: 1px solid #000000;
+      word-break: keep-all;
+    }
+    
+    p.break {
+      width: 140px; 
+      border: 1px solid #000000;
+      word-break: break-all;
+    }
