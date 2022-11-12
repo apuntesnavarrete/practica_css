@@ -105,3 +105,19 @@ p.small-caps {
       box-shadow: 20px 20px 5px 5px  lightblue;
       /* el 4to numero crece la sombra */
     }
+
+    p.overflow-clip {
+      white-space: nowrap; 
+      width: 210px; 
+      border: 1px solid #000000;
+      overflow: hidden;
+      text-overflow: clip;
+    }
+    
+    p.overflow-ellipsis {
+      white-space: nowrap; 
+      width: 210px; 
+      border: 1px solid #000000;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
