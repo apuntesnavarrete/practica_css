@@ -91,7 +91,17 @@ p.small-caps {
     }
 
 
-    .currentcolor {
+    .current-color {
       color: blue;
       border: 10px solid currentcolor;
+    }
+
+
+    .box-shadow {
+      width: 300px;
+      height: 100px;
+      padding: 15px;
+      background-color: coral;
+      box-shadow: 20px 20px 5px 5px  lightblue;
+      /* el 4to numero crece la sombra */
     }
