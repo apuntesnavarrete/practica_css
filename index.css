@@ -1,3 +1,11 @@
+ @font-face {
+  font-family: "letter zon";
+  src: url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+ }
+
+ body{
+  font-family: "letter zon";
+ }
 
 .aling_last{
     /*centra la ultima linea de texto */
