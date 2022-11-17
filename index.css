@@ -168,3 +168,12 @@ p.small-caps {
   column-rule-style: solid;
 
 }
+
+.resize {
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: horizontal;
+  overflow: auto;
+}
+
