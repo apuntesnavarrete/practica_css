@@ -161,3 +161,10 @@ p.small-caps {
   -webkit-mask-image: radial-gradient(circle, black 80%, rgba(0, 0, 0, 0.5) 80%);
   mask-image: radial-gradient(circle, black 80%, rgba(0, 0, 0, 0.5) 80%);
 }
+
+.column {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+
+}
