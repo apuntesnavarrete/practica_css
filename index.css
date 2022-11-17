@@ -148,9 +148,16 @@ p.small-caps {
 
     */
 
+    /*
     .mask1 {
       -webkit-mask-image: url(w3logo.png);
       mask-image: url(w3logo.png);
       -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;    
     }
+*/
+
+.mask1 {
+  -webkit-mask-image: radial-gradient(circle, black 80%, rgba(0, 0, 0, 0.5) 80%);
+  mask-image: radial-gradient(circle, black 80%, rgba(0, 0, 0, 0.5) 80%);
+}
