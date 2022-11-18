@@ -176,4 +176,7 @@ p.small-caps {
   resize: horizontal;
   overflow: auto;
 }
-
+/*
+cambiar la variable desde js
+var r = document.querySelector(':root');
+*/
